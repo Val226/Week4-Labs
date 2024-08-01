@@ -51,28 +51,39 @@ Question 1. Creating & 'console.log()'ing variables \n`);
  * Step 6: Create a variable to hold a street address.
  * ↓ YOUR CODE HERE ↓ */
 
-console.log(PlaneSeats);
+console.log("number of seats on a plate");
+var availableFlightSeats = 20;
+console.log("The number of seats left on this plane are" + availableFlightSeats)
 
 
-console.log(GroceryPrice);
+console.log("Cost of groceries");
+var groceryPrice = 90.50;
+console.log("The price of groceries are" + groceryPrice);
 
 
-console.log(MidInit);
+console.log("Middle initial");
+var midInit = D;
+console.log("My Middle Initial is" + midInit)
+
+console.log("Is it hot outside?");
+var hotOutside = true;
+console.log("Is it hot outside" + hotOutside);
 
 
-console.log(HotOutside);
+console.log("First Name");
+var firstName = Val;
+console.log("The Variable first Name is" + firstName);
 
 
-console.log(FirstName);
-
-
-console.log(StreetAddress);
+console.log("Street Address");
+var StreetAddress = 20411 E Union Cir
+console.log(StreetAddress)
 
 
 /*-------------------------------------------------------*/
 
 console.log(`--------------------------
-Question 2. Creating & 'console.log()'ing variables \n`);
+Question 2. Creating & 'console.log()'ing variables \n`);z
  
 
 /** 
@@ -85,7 +96,7 @@ Question 2. Creating & 'console.log()'ing variables \n`);
     console.log('Remove Plane Seats:')
 //	A customer booked 2 plane seats. Remove 2 seats from the available seats variable
 //  ↓ YOUR CODE HERE ↓
-
+console.log("A customer booked 2 seats ... There are only" + availableFlightSeats - 2 "seats left");
 
     console.log('Buy a Candy Bar:')
 //	Impulse candy bar purchase! Add 2.15 to the grocery total
