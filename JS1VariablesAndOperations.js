@@ -51,22 +51,22 @@ Question 1. Creating & 'console.log()'ing variables \n`);
  * Step 6: Create a variable to hold a street address.
  * ↓ YOUR CODE HERE ↓ */
 
-console.log("Step 1:  Number of Seats on a Plane");
+console.log(PlaneSeats);
 
 
-console.log("Step 2:  Cost of Groceries");
+console.log(GroceryPrice);
 
 
-console.log("Step 3:  Middle Initial");
+console.log(MidInit);
 
 
-console.log("Step 4:  Is it Hot Outside?");
+console.log(HotOutside);
 
 
-console.log("Step 5:  First Name");
+console.log(FirstName);
 
 
-console.log("Step 6:  Street Address");
+console.log(StreetAddress);
 
 
 /*-------------------------------------------------------*/
