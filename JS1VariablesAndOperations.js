@@ -76,8 +76,8 @@ console.log("The Variable first Name is" + firstName);
 
 
 console.log("Street Address");
-var StreetAddress = 20411 E Union Cir
-console.log(StreetAddress)
+var streetAddress = 20411 E Union Cir
+console.log(streetAddress)
 
 
 /*-------------------------------------------------------*/
@@ -101,29 +101,32 @@ console.log("A customer booked 2 seats ... There are only" + availableFlightSeat
     console.log('Buy a Candy Bar:')
 //	Impulse candy bar purchase! Add 2.15 to the grocery total
 //  ↓ YOUR CODE HERE ↓
-
+console.log("The total for this grocery trip costs" + (groceryPrice + 2.15))
 
     console.log('Fix a Birth Certificate:')
 //	A birth certificate was printed incorrectly, change the middle initial to something else
 //  ↓ YOUR CODE HERE ↓
-
+midInit = J
+console.log("Birth certification printed wrong, change the middile initial" + midInit)
 
     console.log('Changing Seasons:')
 //	The season has changed, update the hot outside variable	to be opposite of what it was
 //  ↓ YOUR CODE HERE ↓
-    
+    hotOutside = !hotOutside
+    console.log("Seasons change, and it is now" + hotOutside)
 
     console.log('Full Name:')
 //	Create a new variable called full name using the customer's
 //  first name, the middle initial, and a last name of your choice
 //  ↓ YOUR CODE HERE ↓
-
+    var fullName = firstName + midInit + Boddy
+    console.log("My full name is: " + fullName)
 
     console.log('Introduce a Customer:')
 //	Print a line to the console that introduces the customer 
 //	including the name, and saying that they live at the address variable
 //  ↓ YOUR CODE HERE ↓
-
+    console.log("Here is a new customer! Her name is: " + fullName + "." + "He lives at: " + streetAddress)
 
 
     console.log('-----------Finished------------')
